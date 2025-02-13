@@ -1,7 +1,7 @@
 const config = {
   github: {
     username: 'bryant2305', // Tu nombre de usuario de GitHub
-    sortBy: 'updated', // Ordenar por actualización más reciente
+    sortBy: 'stars', // Ordenar por actualización más reciente
     limit: 8, // Número de proyectos a mostrar
     exclude: {
       forks: true, // Excluir forks
