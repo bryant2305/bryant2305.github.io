@@ -2,81 +2,35 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
-  },
-  /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
-   * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
-   */
-  base: '/',
-  projects: {
-    github: {
-      display: true, // Display GitHub projects?
-      header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
-      automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
-        exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
-        },
-      },
-      manual: {
-        // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
-      },
+    username: 'bryant2305',
+    sortBy: 'updated',
+    limit: 8, 
+    exclude: {
+      forks: true, 
+      projects: ['bryant2305.github.io', 'bryant2305'],
     },
-    external: {
-      header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
-      projects: [
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-      ],
-    },
-  },
-  seo: {
-    title: 'Portfolio of Ariful Alam',
-    description: '',
-    imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'www.linkedin.com/in/bryant-perez-garcia-6b5913252',
+    x: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
     reddit: '',
     threads: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: '',
     udemy: '',
     dribbble: '',
     behance: '',
     medium: 'arifszn',
     dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    stackoverflow: '',
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://bryant2305.github.io',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'bryantperezgarcia005@gmail.com',
   },
   resume: {
     fileUrl:
@@ -86,32 +40,34 @@ const CONFIG = {
     'PHP',
     'Laravel',
     'JavaScript',
-    'React.js',
     'Node.js',
     'Nest.js',
+    'Serverless',
+    'MicroServices',
+    'Caching',
+    'Redis',
     'MySQL',
-    'PostgreSQL',
+    'SQL',
+    'MongoDB',
     'Git',
     'Docker',
     'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'AWS',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Oficina Gubernamental de la Tecnologia de la informacion y comunicacion (OGTIC)',
+      position: 'Back-end Developer Intern',
+      from: 'April 2023',
+      to: 'Jun 2023',
+      companyLink: 'https://ogtic.gob.do/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Oficina Gubernamental de la Tecnologia de la informacion y comunicacion (OGTIC)',
+      position: 'Back-end Develope',
+      from: 'Jun 2023',
+      to: 'Present',
+      companyLink: 'https://ogtic.gob.do/',
     },
   ],
   certifications: [
