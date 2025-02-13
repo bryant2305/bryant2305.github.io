@@ -5,11 +5,11 @@ const config = {
     limit: 8, // Número de proyectos a mostrar
     exclude: {
       forks: true, // Excluir forks
-      projects: [], // Lista de proyectos a excluir
+      projects: [bryant2305.github.io , bryant2305], // Lista de proyectos a excluir
     },
   },
   social: {
-    linkedin: '',
+    linkedin: 'www.linkedin.com/in/bryant-perez-garcia-6b5913252',
     twitter: '',
     mastodon: '',
     facebook: '',
@@ -23,32 +23,45 @@ const config = {
     skype: '',
     telegram: '',
     website: 'https://bryant2305.github.io/', 
-    phone: '',
-    email: 'bryant2305@gmail.com',
+    phone: '+18294322305',
+    email: 'bryantperezgarcia005@gmail.com',
   },
   resume: {
     fileUrl: '', // URL de tu currículum si lo tienes
   },
   skills: [
-    'JavaScript',
     'TypeScript',
     'Node.js',
     'NestJS',
+    'PHP',
+    'Laravel',
+    'MicroServices',
+    'Serverless',
+    'gRPC',
+    'Redis',
+    'Caching',
+    'Mysql',
+    'SQL',
     'MongoDB',
     'PostgreSQL',
     'AWS',
     'Docker',
     'Git',
-    'CSS',
-    'Tailwind',
   ],
   experiences: [
     {
-      company: 'Empresa X',
+      company: 'Oficina Gubernamental de la Tecnologia de la informacion y comunicacion (OGTIC)',
+      position: 'Backend Developer Intern',
+      from: 'April 2023',
+      to: 'Jun 2023',
+      companyLink: 'https://ogtic.gob.do',
+    },
+     {
+      company: 'Oficina Gubernamental de la Tecnologia de la informacion y comunicacion (OGTIC)',
       position: 'Backend Developer',
-      from: '2022',
-      to: 'Actual',
-      companyLink: '',
+      from: 'Jun 2023',
+      to: 'Present',
+      companyLink: 'https://ogtic.gob.do',
     },
   ],
   certifications: [],
