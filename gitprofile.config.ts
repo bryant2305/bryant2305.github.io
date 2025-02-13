@@ -64,7 +64,27 @@ const config = {
       companyLink: 'https://ogtic.gob.do',
     },
   ],
-  certifications: [],
+  certifications: [
+     {
+      name: 'AWS Knowledge: Cloud Essentials',
+      body: 'AMAZON WEB SERVICES',
+      year: '2024',
+      link: 'https://www.credly.com/badges/946b3d5f-5fa6-4dd5-a159-b872db9c63bc/linked_in_profile', // Agrega el enlace a la certificación si lo tienes en línea.
+    },
+    {
+      name: 'Deploying Serverless Applications',
+      body: 'AMAZON WEB SERVICES',
+      year: '2025',
+      link: '', // Agrega el enlace a la certificación si lo tienes en línea.
+    },
+    {
+      name: 'AWS Lambda Certification',
+      body: 'AMAZON WEB SERVICES',
+      year: '2025',
+      link: '', // Agrega el enlace a la certificación si lo tienes en línea.
+    },
+    
+  ],
   externalProjects: [],
   blog: {},
   googleAnalytics: {
