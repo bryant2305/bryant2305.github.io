@@ -1,15 +1,15 @@
 const config = {
   github: {
-    username: 'bryant2305',
-    sortBy: 'updated', // Opciones: 'stars' | 'updated'
-    limit: 8,
+    username: 'bryant2305', // Tu nombre de usuario de GitHub
+    sortBy: 'updated', // Ordenar por actualización más reciente
+    limit: 8, // Número de proyectos a mostrar
     exclude: {
-      forks: true,
-      projects: ['bryant2305.github.io', 'bryant2305'],
+      forks: true, // Excluir forks
+      projects: [], // Lista de proyectos a excluir
     },
   },
   social: {
-    linkedin: 'www.linkedin.com/in/bryant-perez-garcia-6b5913252',
+    linkedin: '',
     twitter: '',
     mastodon: '',
     facebook: '',
@@ -22,68 +22,49 @@ const config = {
     stackoverflow: '',
     skype: '',
     telegram: '',
-    website: 'https://bryant2305.github.io',
+    website: 'https://bryant2305.github.io/', 
     phone: '',
-    email: 'bryantperezgarcia005@gmail.com',
+    email: 'bryant2305@gmail.com',
   },
   resume: {
-    fileUrl: 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf',
+    fileUrl: '', // URL de tu currículum si lo tienes
   },
   skills: [
-    'PHP',
-    'Laravel',
     'JavaScript',
+    'TypeScript',
     'Node.js',
-    'Nest.js',
-    'Serverless',
-    'MicroServices',
-    'Caching',
-    'Redis',
-    'MySQL',
-    'SQL',
+    'NestJS',
     'MongoDB',
-    'Git',
-    'Docker',
-    'PHPUnit',
+    'PostgreSQL',
     'AWS',
+    'Docker',
+    'Git',
+    'CSS',
+    'Tailwind',
   ],
   experiences: [
     {
-      company: 'OGTIC',
-      position: 'Back-end Developer Intern',
-      from: 'April 2023',
-      to: 'Jun 2023',
-      companyLink: 'https://ogtic.gob.do/',
-    },
-    {
-      company: 'OGTIC',
-      position: 'Back-end Developer',
-      from: 'Jun 2023',
-      to: 'Present',
-      companyLink: 'https://ogtic.gob.do/',
+      company: 'Empresa X',
+      position: 'Backend Developer',
+      from: '2022',
+      to: 'Actual',
+      companyLink: '',
     },
   ],
-  certifications: [
-    {
-      name: 'Sample Certification',
-      body: 'Description of certification',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
-  ],
-  // Puedes agregar proyectos externos aquí si deseas
+  certifications: [],
   externalProjects: [],
-  blog: {
-    // source: 'dev', // medium | dev
-    // username: '', // Dejar vacío para ocultar la sección del blog
-    // limit: 2,
-  },
+  blog: {},
   googleAnalytics: {
     id: '',
   },
   hotjar: {
     id: '',
     snippetVersion: 6,
+  },
+  seo: {
+    title: 'Bryant - Portfolio',
+    description: 'Portafolio de Bryant mostrando habilidades y proyectos.',
+    imageURL: 'https://bryant2305.github.io/assets/preview.png',
   },
   themeConfig: {
     defaultTheme: 'dark',
