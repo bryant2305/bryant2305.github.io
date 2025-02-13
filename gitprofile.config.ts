@@ -5,7 +5,7 @@ const config = {
     limit: 8, // Número de proyectos a mostrar
     exclude: {
       forks: true, // Excluir forks
-      projects: [bryant2305.github.io , bryant2305], // Lista de proyectos a excluir
+      projects: ['bryant2305.github.io' , 'bryant2305'], // Lista de proyectos a excluir
     },
   },
   social: {
