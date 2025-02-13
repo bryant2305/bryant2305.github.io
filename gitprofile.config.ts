@@ -1,7 +1,7 @@
-const CONFIG = {
+const config = {
   github: {
     username: 'bryant2305',
-    sortBy: 'updated',
+    sortBy: 'updated', // Opciones: 'stars' | 'updated'
     limit: 8,
     exclude: {
       forks: true,
@@ -10,16 +10,42 @@ const CONFIG = {
   },
   social: {
     linkedin: 'www.linkedin.com/in/bryant-perez-garcia-6b5913252',
+    twitter: '',
+    mastodon: '',
+    facebook: '',
+    instagram: '',
+    youtube: '',
+    dribbble: '',
+    behance: '',
+    medium: '',
+    dev: '',
+    stackoverflow: '',
+    skype: '',
+    telegram: '',
     website: 'https://bryant2305.github.io',
+    phone: '',
     email: 'bryantperezgarcia005@gmail.com',
   },
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf',
+    fileUrl: 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf',
   },
   skills: [
-    'PHP', 'Laravel', 'JavaScript', 'Node.js', 'Nest.js', 'Serverless', 'MicroServices',
-    'Caching', 'Redis', 'MySQL', 'SQL', 'MongoDB', 'Git', 'Docker', 'PHPUnit', 'AWS',
+    'PHP',
+    'Laravel',
+    'JavaScript',
+    'Node.js',
+    'Nest.js',
+    'Serverless',
+    'MicroServices',
+    'Caching',
+    'Redis',
+    'MySQL',
+    'SQL',
+    'MongoDB',
+    'Git',
+    'Docker',
+    'PHPUnit',
+    'AWS',
   ],
   experiences: [
     {
@@ -45,41 +71,56 @@ const CONFIG = {
       link: 'https://example.com',
     },
   ],
-  educations: [
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-  ],
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description: 'Brief description of the publication.',
-    },
-  ],
+  // Puedes agregar proyectos externos aquí si deseas
+  externalProjects: [],
   blog: {
-    source: 'dev',
-    username: 'arifszn',
-    limit: 2,
+    // source: 'dev', // medium | dev
+    // username: '', // Dejar vacío para ocultar la sección del blog
+    // limit: 2,
   },
-  googleAnalytics: { id: '' },
-  hotjar: { id: '', snippetVersion: 6 },
+  googleAnalytics: {
+    id: '',
+  },
+  hotjar: {
+    id: '',
+    snippetVersion: 6,
+  },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'dark',
     disableSwitch: false,
-    respectPrefersColorScheme: false,
-    displayAvatarRing: true,
+    respectPrefersColorScheme: true,
+    hideAvatarRing: false,
     themes: [
-      'light', 'dark', 'cupcake', 'bumblebee', 'emerald', 'corporate', 'synthwave', 'retro', 'cyberpunk',
-      'valentine', 'halloween', 'garden', 'forest', 'aqua', 'lofi', 'pastel', 'fantasy', 'wireframe',
-      'black', 'luxury', 'dracula', 'cmyk', 'autumn', 'business', 'acid', 'lemonade', 'night', 'coffee', 'winter',
-      'dim', 'nord', 'sunset', 'procyon',
+      'light',
+      'dark',
+      'cupcake',
+      'bumblebee',
+      'emerald',
+      'corporate',
+      'synthwave',
+      'retro',
+      'cyberpunk',
+      'valentine',
+      'halloween',
+      'garden',
+      'forest',
+      'aqua',
+      'lofi',
+      'pastel',
+      'fantasy',
+      'wireframe',
+      'black',
+      'luxury',
+      'dracula',
+      'cmyk',
+      'autumn',
+      'business',
+      'acid',
+      'lemonade',
+      'night',
+      'coffee',
+      'winter',
+      'procyon',
     ],
     customTheme: {
       primary: '#fc055b',
@@ -91,8 +132,6 @@ const CONFIG = {
       '--rounded-btn': '3rem',
     },
   },
-  footer: `Made with <a class="text-primary" href="https://github.com/arifszn/gitprofile" target="_blank" rel="noreferrer">GitProfile</a> and ❤️`,
-  enablePWA: true,
 };
 
-export default CONFIG;
+export default config;
