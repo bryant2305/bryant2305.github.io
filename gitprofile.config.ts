@@ -35,6 +35,7 @@ const config = {
     'NestJS',
     'PHP',
     'Laravel',
+    '.NET',
     'MicroServices',
     'Serverless',
     'gRPC',
