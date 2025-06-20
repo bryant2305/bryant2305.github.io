@@ -73,6 +73,12 @@ const config = {
       link: 'https://www.credly.com/badges/946b3d5f-5fa6-4dd5-a159-b872db9c63bc/linked_in_profile', // Agrega el enlace a la certificación si lo tienes en línea.
     },
     {
+      name: 'AWS Knowledge: Serverless',
+      body: 'AMAZON WEB SERVICES',
+      year: '2025',
+      link: 'https://www.credly.com/badges/bf6c973b-6837-47e9-b280-a8283557b003', // Agrega el enlace a la certificación si lo tienes en línea.
+    },
+    {
       name: 'Deploying Serverless Applications',
       body: 'AMAZON WEB SERVICES',
       year: '2025',
