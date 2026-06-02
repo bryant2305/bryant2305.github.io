@@ -30,7 +30,6 @@ const config = {
     fileUrl: '',
   },
   skills: [
-    // Cloud
     'AWS',
     'AWS Lambda',
     'Amazon S3',
@@ -42,14 +41,12 @@ const config = {
     'Amazon Rekognition',
     'CloudFormation',
     'AWS CDK',
-    // Infrastructure & DevOps
     'Terraform',
     'Kubernetes',
     'Docker',
     'CI/CD',
     'GitHub Actions',
     'Serverless',
-    // Backend
     'TypeScript',
     'Node.js',
     'NestJS',
@@ -61,16 +58,11 @@ const config = {
     'MicroServices',
     'gRPC',
     'RESTful APIs',
-    // Databases
-    'DynamoDB',
     'PostgreSQL',
     'MySQL',
     'MongoDB',
     'Redis',
-    // AI & Automation
     'OpenAI API',
-    'LLM Integration',
-    // Tools
     'Git',
   ],
   experiences: [
@@ -101,7 +93,7 @@ const config = {
       name: 'AWS Certified Solutions Architect - Associate',
       body: 'Amazon Web Services (AWS)',
       year: '2025',
-      link: 'https://www.credly.com/badges/946b3d5f-5fa6-4dd5-a159-b872db9c63bc/linked_in_profile',
+      link: '',
     },
     {
       name: 'AWS Knowledge: Cloud Essentials',
