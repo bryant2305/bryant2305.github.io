@@ -1,15 +1,15 @@
 const config = {
   github: {
-    username: 'bryant2305', // Tu nombre de usuario de GitHub
-    sortBy: 'stars', // Ordenar por actualización más reciente
-    limit: 6, // Número de proyectos a mostrar
+    username: 'bryant2305',
+    sortBy: 'stars',
+    limit: 6,
     exclude: {
-      forks: true, // Excluir forks
-      projects: ['bryant2305.github.io' , 'bryant2305'], // Lista de proyectos a excluir
+      forks: true,
+      projects: ['bryant2305.github.io', 'bryant2305'],
     },
   },
   social: {
-    linkedin: 'www.linkedin.com/in/bryant-perez-garcia-6b5913252',
+    linkedin: 'bryant-perez-garcia-6b5913252',
     twitter: '',
     mastodon: '',
     facebook: '',
@@ -22,75 +22,99 @@ const config = {
     stackoverflow: '',
     skype: '',
     telegram: '',
-    website: 'https://bryant2305.github.io/', 
+    website: 'https://bryant2305.github.io/',
     phone: '+18294322305',
     email: 'bryantperezgarcia005@gmail.com',
   },
   resume: {
-    fileUrl: '', // URL de tu currículum si lo tienes
+    fileUrl: '',
   },
   skills: [
+    // Cloud
+    'AWS',
+    'AWS Lambda',
+    'Amazon S3',
+    'DynamoDB',
+    'Amazon SQS',
+    'Amazon SNS',
+    'API Gateway',
+    'IAM',
+    'Amazon Rekognition',
+    'CloudFormation',
+    'AWS CDK',
+    // Infrastructure & DevOps
+    'Terraform',
+    'Kubernetes',
+    'Docker',
+    'CI/CD',
+    'GitHub Actions',
+    'Serverless',
+    // Backend
     'TypeScript',
     'Node.js',
     'NestJS',
+    'Python',
+    'FastAPI',
     'PHP',
     'Laravel',
     '.NET',
     'MicroServices',
-    'Serverless',
     'gRPC',
-    'Redis',
-    'Caching',
-    'Mysql',
-    'SQL',
-    'MongoDB',
+    'RESTful APIs',
+    // Databases
+    'DynamoDB',
     'PostgreSQL',
-    'AWS',
-    'Docker',
+    'MySQL',
+    'MongoDB',
+    'Redis',
+    // AI & Automation
+    'OpenAI API',
+    'LLM Integration',
+    // Tools
     'Git',
   ],
   experiences: [
     {
-      company: 'Oficina Gubernamental de la Tecnologia de la informacion y comunicacion (OGTIC)',
+      company: 'Oficina Gubernamental de Tecnologías de la Información y Comunicación (OGTIC)',
       position: 'Backend Developer Intern',
       from: 'April 2023',
-      to: 'Jun 2023',
+      to: 'June 2023',
       companyLink: 'https://ogtic.gob.do',
     },
-     {
-      company: 'Oficina Gubernamental de la Tecnologia de la informacion y comunicacion (OGTIC)',
-      position: 'Backend Developer',
-      from: 'Jun 2023',
-      to: 'Present',
+    {
+      company: 'Oficina Gubernamental de Tecnologías de la Información y Comunicación (OGTIC)',
+      position: 'Cloud & Backend Developer',
+      from: 'June 2023',
+      to: 'September 2025',
       companyLink: 'https://ogtic.gob.do',
+    },
+    {
+      company: 'Office Libations',
+      position: 'Software & Cloud Engineer',
+      from: 'September 2025',
+      to: 'Present',
+      companyLink: 'https://www.officelibations.com',
     },
   ],
   certifications: [
-     {
+    {
+      name: 'AWS Certified Solutions Architect - Associate',
+      body: 'Amazon Web Services (AWS)',
+      year: '2025',
+      link: 'https://www.credly.com/badges/946b3d5f-5fa6-4dd5-a159-b872db9c63bc/linked_in_profile',
+    },
+    {
       name: 'AWS Knowledge: Cloud Essentials',
-      body: 'AMAZON WEB SERVICES',
+      body: 'Amazon Web Services (AWS)',
       year: '2024',
-      link: 'https://www.credly.com/badges/946b3d5f-5fa6-4dd5-a159-b872db9c63bc/linked_in_profile', // Agrega el enlace a la certificación si lo tienes en línea.
+      link: 'https://www.credly.com/badges/946b3d5f-5fa6-4dd5-a159-b872db9c63bc/linked_in_profile',
     },
     {
       name: 'AWS Knowledge: Serverless',
-      body: 'AMAZON WEB SERVICES',
+      body: 'Amazon Web Services (AWS)',
       year: '2025',
-      link: 'https://www.credly.com/badges/bf6c973b-6837-47e9-b280-a8283557b003', // Agrega el enlace a la certificación si lo tienes en línea.
+      link: 'https://www.credly.com/badges/bf6c973b-6837-47e9-b280-a8283557b003',
     },
-    {
-      name: 'Deploying Serverless Applications',
-      body: 'AMAZON WEB SERVICES',
-      year: '2025',
-      link: '', // Agrega el enlace a la certificación si lo tienes en línea.
-    },
-    {
-      name: 'AWS Lambda Certification',
-      body: 'AMAZON WEB SERVICES',
-      year: '2025',
-      link: '', // Agrega el enlace a la certificación si lo tienes en línea.
-    },
-    
   ],
   externalProjects: [],
   blog: {},
@@ -102,8 +126,9 @@ const config = {
     snippetVersion: 6,
   },
   seo: {
-    title: 'Bryant - Portfolio',
-    description: 'Portafolio de Bryant mostrando habilidades y proyectos.',
+    title: 'Bryant Perez Garcia - Portfolio',
+    description:
+      'AWS Certified Solutions Architect & Cloud Engineer specializing in serverless architectures, microservices, Infrastructure as Code, and AI-powered automation on AWS.',
     imageURL: 'https://bryant2305.github.io/assets/preview.png',
   },
   themeConfig: {
